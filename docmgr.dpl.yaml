@@ -21,7 +21,7 @@ spec:
         beta.kubernetes.io/os: linux
       containers:
       - name: docmgr
-        image: rsrini1983/doc-mgr:1.0
+        image: nimoniyaz/docu-mgr:1.0
         ports:
         - containerPort: 3000
         env:
