@@ -3,7 +3,6 @@ kind: Service
 metadata:
   name: mysql
 spec:
-  clusterIP: 10.10.0.100
   ports:
   - port: 3306
   selector:
